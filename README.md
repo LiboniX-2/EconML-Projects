@@ -1,77 +1,142 @@
-# EconML Projects
+<div align="center">
 
-A collection of machine learning projects focused on finance and economics, with an emphasis on time series modeling, predictive analytics, and data-driven insights.
+# EconML-Projects
+
+### Machine Learning Projects on Financial & Real-World Datasets
+
+A collection of end-to-end Machine Learning projects focused on financial prediction, fraud detection, and real estate valuation using classical ML and Neural Networks.
+
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Projects-green)
+![Deep Learning](https://img.shields.io/badge/Deep%20Learning-PyTorch-red)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-purple)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
+</div>
 
 ---
 
 ## Overview
 
-This repository contains practical implementations of machine learning techniques applied to financial and economic datasets. The work includes both foundational models and deep learning approaches, with a focus on correct methodology and evaluation.
+This repository contains Machine Learning projects built using real-world datasets across **finance, stock markets, cryptocurrency, fraud detection, and real estate valuation**.
 
-Key focus areas:
+The goal of these projects is to apply practical ML techniques including data preprocessing, feature engineering, regression, classification, and neural networks to solve real predictive problems.
 
-* Financial data preprocessing and feature engineering
-* Supervised learning models
-* Time series forecasting
-* Deep learning for sequential data
+All projects are implemented using Python, Scikit-learn, and PyTorch (no TensorFlow).
+
+---
+
+## Projects Included
+
+### 📈 Stock Market Prediction
+- Microsoft stock price prediction using historical data
+- Feature engineering on time-series financial data
+- Regression-based forecasting models
+
+### 💰 Cryptocurrency Prediction
+- Bitcoin price prediction using historical trends
+- Time-series analysis and modeling
+- Data-driven forecasting approach
+
+### 🧠 Neural Network Stock Prediction
+- Stock price prediction using PyTorch neural networks
+- Deep learning-based regression modeling
+- Comparison with traditional ML models
+
+### 🚨 Fraud Detection
+- Online payment fraud detection system
+- Classification models for anomaly detection
+- Handling imbalanced datasets
+
+### 🏠 Real Estate Price Prediction
+- Zillow home value prediction
+- Regression models for housing prices
+- Feature selection and evaluation techniques
+
+---
+
+## Dataset Files
+
+- Microsoft Stock dataset
+- Bitcoin dataset
+- Tesla stock dataset
+- Zillow housing dataset
 
 ---
 
 ## Tech Stack
 
-* Python
-* NumPy, Pandas
-* Matplotlib, Seaborn
-* Scikit-learn
-* PyTorch
-* Jupyter Notebook
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- PyTorch
+- Matplotlib
+- Jupyter Notebook
 
 ---
 
-## Structure
+## Repository Structure
 
 ```
-EconML-projects/
-│── data/              # datasets (sample or ignored)
-│── notebooks/         # EDA and experimentation
-│── README.md
+EconML-Projects/
+│
+├── BitcoinPricePrediction.ipynb
+├── Microsoft_Stocks_prediction.ipynb
+├── stockPricePrediction(NN).ipynb
+├── OnlinePaymentFraudDetection.ipynb
+├── ZillowHomeValue.ipynb
+│
+├── bitcoin.csv
+├── MicrosoftStock.csv
+├── Tesla.csv
+├── Zillow.csv
+│
+├── LICENSE
+├── README.md
+└── .gitignore
 ```
 
 ---
 
-##  Projects
+## Skills Demonstrated
 
-### LSTM-Based Stock Price Prediction
-
-* Built using PyTorch for sequence modeling
-* Applied proper time-based train/test split to avoid data leakage
-* Created sliding window sequences for training
-* Evaluated model performance and analyzed prediction behavior
-
----
-
-### Other Projects
-
-* Regression-based stock trend prediction
-* Economic data analysis and visualization
-* Introductory forecasting models
-* Classification tasks on financial datasets
+- Data Cleaning & Preprocessing
+- Exploratory Data Analysis (EDA)
+- Regression Models
+- Classification Models
+- Neural Networks (PyTorch)
+- Time Series Forecasting
+- Feature Engineering
+- Model Evaluation
 
 ---
 
-## Disclaimer
+## Learning Outcomes
 
-This repository is for educational purposes only.
-The models and outputs are not intended for real-world financial decisions.
+- Working with real-world messy datasets
+- Building predictive models for financial data
+- Understanding stock and crypto price behavior
+- Detecting fraudulent transactions using ML
+- Applying deep learning for regression problems
+- Comparing classical ML vs Neural Networks
 
 ---
 
-## Future Direction
+## Future Improvements
 
-* Improve deep learning models with better feature engineering
-* Compare models against strong statistical baselines
-* Explore advanced architectures (attention, transformers)
-* Build more robust and scalable pipelines
+- LSTM-based time series models
+- Transformer-based financial forecasting
+- Hyperparameter optimization
+- Model deployment (Streamlit / FastAPI)
+- Real-time prediction systems
+
+---
+
+## License
+
+This project is licensed under the MIT License.
 
 ---
 
@@ -79,4 +144,15 @@ The models and outputs are not intended for real-world financial decisions.
 
 **Prasiddha Mainali**
 
+- GitHub: https://github.com/LiboniX-2  
+- LinkedIn: https://www.linkedin.com/in/prasiddha-mainali-105bb0352/
+
 ---
+
+<div align="center">
+
+### From Data → Prediction → Insight
+
+⭐ If you like this project, consider starring it.
+
+</div>
